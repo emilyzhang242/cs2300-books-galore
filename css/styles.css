@@ -1,0 +1,111 @@
+label, p, h1, td, th, span {
+	font-family: "Herculanum";
+}
+
+p {
+	font-size: 26px;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+/* nav-bar
+<=================================================== */
+
+.nav-bar {
+	list-style: none;
+	text-align: center;
+	background-color: #000000;
+	opacity: 0.7;
+}
+
+.nav-bar > li {
+	display: inline-block;
+	font-size: 24px;
+	font-family: "Papyrus";
+}
+
+.nav-bar > li > a {
+	display: block;
+	text-decoration: none;
+	padding: 5px 50px 5px 50px;
+	color: white;
+}
+
+.nav-bar > li > a:hover {
+	color: #f0e68c;
+}
+
+#active_page {
+	background-color: grey;
+}
+
+/* table
+<=================================================== */
+
+td {
+	width: 175px;
+	text-align: center;
+	padding: 20px 0;     /* 10px top & bottom padding, 0px left & right */
+    border-width: 1px 0; /*  1px top & bottom border,  0px left & right */
+    border-color: #000;
+    border-style: solid;
+}
+
+table {
+	position: absolute;
+	top: 225px;
+	left: 350px;
+	border-collapse: collapse; 
+}
+
+th {
+	font-size: 25px;
+	width: 175px;
+}
+
+.search {
+	position: absolute;
+	top: 275px;
+	left: 60px;
+}
+
+span {
+	line-height: 0px;
+}
+
+/* add.php
+<=================================================== */
+
+.container {
+	position: absolute;
+	top: 175px;
+	margin: auto;
+	left: 30%;
+	width: 40%;
+	border-style: double;
+	border-width: medium;
+	padding: 10px 10px 10px 25px;
+}
+
+.form-el {
+	right: 0px;
+}
+
+/* general
+<=================================================== */
+
+.warning {
+	font-size: 14px;
+	color: red;
+}
+
+.credits {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	text-align: right;
+	color: grey;
+	font-size: 12px;
+}
